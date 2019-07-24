@@ -35,6 +35,13 @@ export default {
   modules: [
     '@nuxtjs/pwa',
   ],
+  manifest: {
+    name: 'Netlify Test',
+    short_name: 'Netlify',
+    start_url: '/',
+    display: 'standalone',
+    background_color: '#fff'
+  },
   /*
   ** Build configuration
   */
